@@ -1,0 +1,66 @@
+body {
+  background:#f8f8f8;
+  background:url('/images/desktop-background.png');
+  font-family:'montserrat', arial;
+}
+
+.enter-anagram-form {
+    display: block;
+    float: left;
+    font-size: 1em;
+    margin-right: 2.54237%;
+    width: 62.7119%;
+    background-color: #efefef;
+}
+* {
+ 
+   box-sizing: border-box;
+}
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+
+
+h1 {
+  color: #fd395e;
+  font-family:'montserrat', arial;
+  font-weight: bold;
+}
+
+label {
+
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+button {
+  color: #fd395e;
+  font-family:'montserrat', arial;
+  font-weight: normal;
+}
+
+input[type="submit"] {
+    width: 120px;
+    margin-left: 35px;
+    display: block;
+    background-color: #fd395e;
+}
+.button { /* .homepage-container #mc-embedded-subscribe 16px */
+    background: #F16059;
+    height: 4.1875em; 
+    margin: 0;
+    width: 203px;
+    padding: 15px 5%;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    outline: none
+}

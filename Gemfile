@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-
 ruby "2.2.2"
 gem 'activerecord'
 gem 'pg'
@@ -12,3 +11,4 @@ gem 'rake'
 gem 'rack'
 gem 'rack-test'
 gem 'faker'
+gem 'puma', '~> 2.12.2'

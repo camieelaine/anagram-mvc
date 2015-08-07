@@ -1,8 +1,8 @@
 
 # Displays the index page
-#get '/'
- # erb :index
-#end
+get '/' do
+  erb :index
+end
 
 
 # Display the results: list of anagrams for a word

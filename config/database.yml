@@ -8,7 +8,7 @@ development:
   host: localhost
   username: decovich
   password: number
-    
+
 test:
   adapter: postgresql
   database: anagrams_test

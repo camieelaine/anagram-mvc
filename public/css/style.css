@@ -29,21 +29,7 @@ h1 {
   color: #fd395e;
   font-family:'montserrat', arial;
   font-weight: bold;
-
 }
-
-#welcome {
-  font-size: 28px;
-  font-family: 'montserrat', arial;
-  color: #ff3366;
-  line-height: 33px;
-  text-align: center;
-  left: 43%;
-  top: 14%;
- /*Canvas w:1200px h:1024; left: 523px; top: 148px;
- 523/1200= 43%; 148/1024=14%*/
-}
-
 
 label {
 
@@ -78,4 +64,3 @@ input[type="submit"] {
     vertical-align: top;
     outline: none
 }
-

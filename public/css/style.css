@@ -1,66 +1,179 @@
 body {
   background:#f8f8f8;
-  background:url('/images/desktop-background.png');
-  font-family:'montserrat', arial;
+   background:url('/images/anagram-background.jpg');
+  font-family:'montserrat', sans-serif;
 }
 
-.enter-anagram-form {
-    display: block;
-    float: left;
-    font-size: 1em;
-    margin-right: 2.54237%;
-    width: 62.7119%;
-    background-color: #efefef;
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  text-align: center;
 }
-* {
+
+.anagram_word {
+  font-size: 54px;
+  font-family:'montserrat', sans-serif;
+  color: rgb(253, 57, 94);
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 0.667;
+  text-align: center;
  
-   box-sizing: border-box;
+}
+.anagram_result {
+  font-size: 54px;
+  font-family:'montserrat', sans-serif;
+  color: rgb(253, 57, 94);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.667;
+  text-align: center;
+  
 }
 
 
-/**********************************
-COLORS
-***********************************/
+ li {
+  width: 45%;
+  margin: 2.5%;
+  text-align: center;
+  list-style: none;
+}
 
-/* site body */
 
+/*Treehouse form class*/
 
 h1 {
-  color: #fd395e;
-  font-family:'montserrat', arial;
-  font-weight: bold;
+  margin: 0 0 28px 0;
+  text-align: center;
+  color: #ff3366;
+  font-family: 'montserrat', sans-serif;
+  line-height: 33px;
 }
 
-label {
+h2 {
+  margin: 0 0 28px 0;
+  text-align: center;
+  line-height: 33px;
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ff3366;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 33px;
+  
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-  font-family: 'Open Sans';
-  font-size: 14px;
-  font-style: italic;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
 }
 
 button {
-  color: #fd395e;
-  font-family:'montserrat', arial;
-  font-weight: normal;
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #ff3366;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #ff3366;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
 }
 
-input[type="submit"] {
-    width: 120px;
-    margin-left: 35px;
-    display: block;
-    background-color: #fd395e;
+fieldset {
+  margin-bottom: 30px;
+  border: none;
 }
-.button { /* .homepage-container #mc-embedded-subscribe 16px */
-    background: #F16059;
-    height: 4.1875em; 
-    margin: 0;
-    width: 203px;
-    padding: 15px 5%;
-    text-transform: uppercase;
-    display: inline-block;
-    vertical-align: top;
-    outline: none
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
 }

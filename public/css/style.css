@@ -11,36 +11,6 @@ body {
   text-align: center;
 }
 
-.anagram_word {
-  font-size: 54px;
-  font-family:'montserrat', sans-serif;
-  color: rgb(253, 57, 94);
-  font-weight: bold;
-  text-decoration: underline;
-  text-transform: uppercase;
-  line-height: 0.667;
-  text-align: center;
- 
-}
-.anagram_result {
-  font-size: 54px;
-  font-family:'montserrat', sans-serif;
-  color: rgb(253, 57, 94);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 0.667;
-  text-align: center;
-  
-}
-
-
- li {
-  width: 45%;
-  margin: 2.5%;
-  text-align: center;
-  list-style: none;
-}
-
 
 /*Treehouse form class*/
 
@@ -149,6 +119,7 @@ legend {
 label {
   display: block;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 label.light {

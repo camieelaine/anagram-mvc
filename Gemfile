@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.2.2'
 gem 'activerecord'
 gem 'pg'
-
+gem 'puma'
 gem 'rspec'
 
 gem 'sinatra'

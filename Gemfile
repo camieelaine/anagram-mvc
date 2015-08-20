@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.2'
+
 gem 'activerecord'
 # Use postgresql as the database for Active Record
 gem 'pg'

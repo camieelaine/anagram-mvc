@@ -148,26 +148,3 @@ label.light {
   }
 
 }
-.anagram_word {
-  font-size: 54px;
-  font-family:'montserrat', sans-serif;
-  color: rgb(253, 57, 94);
-  font-weight: bold;
-  text-decoration: underline;
-  text-transform: uppercase;
-  line-height: 62px;
-  text-align: center;
- 
-   box-sizing: border-box;
-}
-.anagram_result {
-  font-size: 54px;
-  font-family:'montserrat', sans-serif;
-  color: rgb(253, 57, 94);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 62px;
-  text-align: center;
-  list-style: none;
-  
-}
